@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MicroControls</name>
+    </assembly>
+    <members>
+        <member name="T:MicroControls.MicroListBoxItem">
+            <summary>
+            <para>___</para>
+            <para>Derived from ListBoxItem</para>
+            </summary>
+        </member>
+        <member name="M:MicroControls.MicroListBoxItem.#ctor(Microsoft.SPOT.Presentation.Controls.ListBox)">
+            <summary>
+            <para><paramref name="VisualParent_"/>: The listbox where the MicroListboxItem will be added</para> 
+            </summary>
+            <param name="VisualParent_"></param>
+        </member>
+        <member name="T:MicroControls.MicroButton">
+            <summary>
+            <para>Inherits Canvas class</para>
+            </summary>
+        </member>
+        <member name="M:MicroControls.MicroButton.#ctor(System.Int32,System.Int32,System.String)">
+            <summary>
+            <para><paramref name="height"/>: Height of the button</para>
+            <para><paramref name="width"/>: Width of the button</para>
+            <para><paramref name="content"/>: Text content of the button</para>
+            <para>To make text content displayed, Font should be set using <c>SetFont()</c> method</para>
+            </summary>
+            <param name="height"></param>
+            <param name="width"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:MicroControls.MicroButton.SetFont(Microsoft.SPOT.Font)">
+            <summary>
+            <para>Sets the text font of button's text content</para>
+            </summary>
+            <param name="font"></param>
+        </member>
+        <member name="M:MicroControls.MicroButton.SetText(System.String)">
+            <summary>
+            <para>Set the text content of the button</para>
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="M:MicroControls.MicroButton.SetBackgroundColor(Microsoft.SPOT.Presentation.Media.Color)">
+            <summary>
+            <para>Set background color of the button</para>
+            </summary>
+            <param name="color"></param>
+        </member>
+        <member name="M:MicroControls.MicroButton.SetOnclickColor(Microsoft.SPOT.Presentation.Media.Color)">
+            <summary>
+            <para>Sets the background color of the button when it is pressed</para>
+            </summary>
+            <param name="color"></param>
+        </member>
+    </members>
+</doc>
