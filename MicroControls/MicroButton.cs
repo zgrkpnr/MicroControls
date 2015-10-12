@@ -32,8 +32,6 @@ namespace MicroControls
         /// <param name="content"></param>
         public MicroButton(int height, int width, string content/*, Font buttonFont*/)
         {
-
-
             btnStateNormal = Colors.Black;
             btnStatePressed = Colors.DarkGray;
             //btnText.Font = buttonFont;
@@ -46,8 +44,6 @@ namespace MicroControls
             border.Width = this.Width; ;
             border.Background = new SolidColorBrush(Colors.Black);
             this.Children.Add(border);
-
-
 
             btnText = new Text();
             btnText.ForeColor = Colors.White;
@@ -63,31 +59,34 @@ namespace MicroControls
         /// <para>Sets the text font of button's text content</para>
         /// </summary>
         /// <param name="font"></param>
-        public void SetFont(Font font)
+        public MicroButton SetFont(Font font)
         {
             btnText.Font = font;
+            return this;
         }
 
         /// <summary>
         /// <para>Set the text content of the button</para>
         /// </summary>
         /// <param name="text"></param>
-        public void SetText(string text)
+        public MicroButton SetText(string text)
         {
             btnText.TextContent = text;
             btnText.Invalidate();
             btnText.UpdateLayout();
+            return this;
         }
 
         /// <summary>
         /// <para>Set background color of the button</para>
         /// </summary>
         /// <param name="color"></param>
-        public void SetBackgroundColor(Color color)
+        public MicroButton SetBackgroundColor(Color color)
         {
             border.Background = new SolidColorBrush(color);
             border.BorderBrush = new SolidColorBrush(color);
             btnStateNormal = color;
+            return this;
         }
 
 
@@ -95,9 +94,10 @@ namespace MicroControls
         /// <para>Sets the background color of the button when it is pressed</para>
         /// </summary>
         /// <param name="color"></param>
-        public void SetOnclickColor(Color color)
+        public MicroButton SetOnclickColor(Color color)
         {
             btnStatePressed = color;
+            return this;
         }
 
         protected override void OnTouchDown(TouchEventArgs e)

@@ -15,25 +15,27 @@ namespace MicroControls
     /// </summary>
     public class MicroListBoxItem : ListBoxItem
     {
-
-        
-         ListBox parent_;
-         SolidColorBrush StateNormal = new SolidColorBrush(Color.White);
-         SolidColorBrush StatePressed = new SolidColorBrush(Colors.Gray);
+        ListBox parent_;
+        SolidColorBrush StateNormal = new SolidColorBrush(Color.White);
+        SolidColorBrush StatePressed = new SolidColorBrush(Colors.Gray);
         /// <summary>
-         /// <para><paramref name="VisualParent_"/>: The listbox where the MicroListboxItem will be added</para> 
+        /// <para><paramref name="VisualParent_"/>: The listbox where the MicroListboxItem will be added</para> 
         /// </summary>
         /// <param name="VisualParent_"></param>
-         public MicroListBoxItem(ListBox VisualParent_)
+        public MicroListBoxItem(ListBox VisualParent_)
         {
             parent_ = VisualParent_ as ListBox;
             VerticalAlignment = VerticalAlignment.Stretch;
-            Width = parent_.Width;
+            this.HorizontalAlignment = Microsoft.SPOT.Presentation.HorizontalAlignment.Stretch;
             Background = StateNormal;
-            
         }
 
-         
+        public MicroListBoxItem SetStateColors(Color pressedTrue, Color pressedFalse)
+        {
+            StateNormal = new SolidColorBrush(pressedFalse);
+            StatePressed = new SolidColorBrush(pressedTrue);
+            return this;
+        }
 
         protected override void OnTouchDown(TouchEventArgs e)
         {
@@ -49,12 +51,14 @@ namespace MicroControls
         {
             base.OnTouchUp(e);
             this.Background = StateNormal;
+            this.Invalidate();
+            this.UpdateLayout();
         }
 
 
         protected override void OnLostFocus(FocusChangedEventArgs e)
         {
-            
+
 
             base.OnLostFocus(e);
         }

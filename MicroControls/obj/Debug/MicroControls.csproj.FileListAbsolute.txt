@@ -16,3 +16,21 @@ C:\Users\Ozgur_\documents\visual studio 2012\Projects\MicroControls\MicroControl
 C:\Users\Ozgur_\documents\visual studio 2012\Projects\MicroControls\MicroControls\obj\Debug\MicroControls.dll
 C:\Users\Ozgur_\documents\visual studio 2012\Projects\MicroControls\MicroControls\obj\Debug\MicroControls.pdb
 C:\Users\Ozgur_\Documents\Visual Studio 2012\Projects\MicroControls\MicroControls\obj\Debug\TinyCLR_DebugReferences.cache
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\bin\Debug\le\MicroControls.dll
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\bin\Debug\be\MicroControls.dll
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\bin\Debug\le\MicroControls.pdb
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\bin\Debug\be\MicroControls.pdb
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\bin\Debug\MicroControls.XML
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\bin\Debug\MicroControls.dll
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\bin\Debug\MicroControls.pdb
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\bin\Debug\le\MicroControls.pe
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\bin\Debug\le\MicroControls.pdbx
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\bin\Debug\be\MicroControls.pe
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\bin\Debug\be\MicroControls.pdbx
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\obj\Debug\TinyCLR_DebugReferences.cache
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\obj\Debug\be\MicroControls.pe
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\obj\Debug\be\MicroControls.pdbx
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\obj\Debug\le\MicroControls.pe
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\obj\Debug\le\MicroControls.pdbx
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\obj\Debug\MicroControls.dll
+C:\Users\Ozgur_\Documents\GitHub\MicroControls\MicroControls\obj\Debug\MicroControls.pdb
